@@ -1,0 +1,63 @@
+@media (max-width: 991px) {
+  .overview {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .overview {
+    width: 95%;
+    margin: auto;
+  }
+}
+@media (max-width: 576px) {
+  .total {
+    flex-direction: column;
+    align-items: start !important;
+    gap: 1rem;
+    margin-bottom: 20px;
+  }
+}
+.card {
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+}
+
+.buttons button:first-child {
+  background-color: #3a9bfe;
+  color: white;
+  padding: 0.6rem 0.8rem;
+  border-radius: 5px;
+}
+
+.money span:first-child,
+.money span:first-child:hover {
+  font-weight: 600;
+  color: black;
+}
+.money span:last-child,
+.money span:last-child:hover {
+  color: #4fbf67;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.progresss span,
+.progresss span:hover,
+.small-card span,
+.small-card span:hover {
+  color: #808191 !important;
+  font-size: 13px;
+  font-weight: 500;
+}
+.prog-1 > div {
+  height: 13px;
+  width: 75%;
+  background-color: #6c5dd3;
+  border-radius: 5px;
+}
+.prog-2 > div {
+  height: 13px;
+  width: 100%;
+  background-color: #3a9bfe;
+  border-radius: 5px;
+}

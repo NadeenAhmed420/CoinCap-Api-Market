@@ -1,0 +1,65 @@
+.header {
+  height: 70px;
+  background-color: white;
+}
+@media (max-width: 576px) {
+  .search-bar {
+    display: none !important;
+  }
+}
+.search-bar {
+  max-width: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+input {
+  width: 400px;
+  height: 35px;
+  padding-left: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  outline: none;
+  caret-color: #3a9bfe;
+}
+@media (max-width: 768px) {
+  input {
+    width: 300px;
+  }
+}
+.search-img {
+  position: absolute;
+  margin-left: 10px;
+}
+.print {
+  margin-bottom: 20px;
+}
+.print button {
+  background-color: #3a9bfe;
+  color: white !important;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+}
+
+#content {
+  display: none;
+}
+@media print {
+  #content {
+    display: block;
+  }
+}
+
+.menu {
+  display: none;
+}
+@media (max-width: 576px) {
+  .menu {
+    display: block;
+    margin-left: 30px;
+  }
+  header h4 {
+    margin-left: 10px !important;
+  }
+}
